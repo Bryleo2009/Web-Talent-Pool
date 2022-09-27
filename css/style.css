@@ -1,0 +1,196 @@
+header {
+    background-color: var(--color-1) !important;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.seccion {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/****************************Nav*/
+
+nav {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.pestaña {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.idioma {
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    border-radius: 40px;
+    padding: 2px 12px !important;
+}
+
+.active {
+    border-bottom: 3px solid var(--color-2);
+    color: var(--color-2) !important;
+    font-weight: bold;
+}
+
+/*************************info************/
+.s-info-logo>img {
+    width: 100%;
+}
+
+#info {
+    background-color: var(--color-3);
+}
+
+.s-info-text>h1 {
+    font-size: 70px;
+}
+
+.s-info-text>p {
+    font-size: 19px;
+}
+
+.s-info-text>button {
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    border-radius: 8px;
+    padding: 15px 50px !important;
+    margin: 20px 0;
+}
+
+/*********proce*/
+.s-proce>h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.s-proce-text>p {
+    font-size: 18px;
+    width: 85%;
+}
+
+.s-proce-img>img {
+    width: 85%;
+}
+
+.s-proce-items>div {
+    padding-bottom: 50px;
+}
+
+.s-proce-item_text>h1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.s-proce-item_text>p {
+    font-size: 21px;
+}
+
+#proce {
+    background-color: var(--color-white);
+}
+
+/*********************request*/
+.s-reque-forms-logo>img {
+    width: 100%;
+}
+
+#reque {
+    background-color: var(--color-3);
+}
+
+.s-reque-forms-imputs>div {
+    background-color: var(--color-white);
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.inp {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.inp .label {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.inp .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.inp input, textarea{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 16px 12px 0 12px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--color-white);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+    transition: all 0.15s ease;
+    height: 70px;
+}
+
+.inp input:not(:-moz-placeholder-shown)+.label , textarea:not(:-moz-placeholder-shown)+.label{
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:not(:-ms-input-placeholder)+.label , textarea:not(:-ms-input-placeholder)+.label{
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:not(:placeholder-shown)+.label, textarea:not(:placeholder-shown)+.label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus, textarea:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 var(--color-2);
+    border-radius: 14px;
+}
+
+.inp input:focus+.label , textarea:focus+.label{
+    color:  var(--color-2);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus+.label+.focus-bg, textarea:focus+.label+.focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+}
