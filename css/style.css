@@ -38,6 +38,15 @@ nav {
     font-weight: bold;
 }
 
+button {
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    border-radius: 8px;
+    padding: 15px 50px !important;
+    margin: 20px 0;
+}
+
 /*************************info************/
 .s-info-logo>img {
     width: 100%;
@@ -53,15 +62,6 @@ nav {
 
 .s-info-text>p {
     font-size: 19px;
-}
-
-.s-info-text>button {
-    font-size: 19px;
-    font-weight: bold;
-    border: 2px solid rgba(0, 0, 0, 0.21);
-    border-radius: 8px;
-    padding: 15px 50px !important;
-    margin: 20px 0;
 }
 
 /*********proce*/
@@ -112,6 +112,25 @@ nav {
     margin-bottom: 20px;
 }
 
+.s-reque-title > h1 {
+    font-size: 45px;
+}
+
+.s-reque-title > p {
+    font-size: 16px;
+}
+
+.s-reque-title {
+    margin-bottom: 35px;
+}
+
+.inp>textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+
 .inp {
     position: relative;
     margin-top: 20px;
@@ -145,7 +164,9 @@ nav {
     transform-origin: left;
 }
 
-.inp input, textarea{
+.inp input,
+textarea,
+select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -163,34 +184,139 @@ nav {
     height: 70px;
 }
 
-.inp input:not(:-moz-placeholder-shown)+.label , textarea:not(:-moz-placeholder-shown)+.label{
+.inp input:not(:-moz-placeholder-shown)+.label,
+textarea:not(:-moz-placeholder-shown)+.label,
+select:not(:-moz-placeholder-shown)+.label {
     color: rgba(0, 0, 0, 0.5);
     transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
-.inp input:not(:-ms-input-placeholder)+.label , textarea:not(:-ms-input-placeholder)+.label{
+.inp input:not(:-ms-input-placeholder)+.label,
+textarea:not(:-ms-input-placeholder)+.label,
+select:not(:-ms-input-placeholder)+.labe {
     color: rgba(0, 0, 0, 0.5);
     transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
-.inp input:not(:placeholder-shown)+.label, textarea:not(:placeholder-shown)+.label {
+.inp input:not(:placeholder-shown)+.label,
+textarea:not(:placeholder-shown)+.label,
+select:not(:placeholder-shown)+.label {
     color: rgba(0, 0, 0, 0.5);
     transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
-.inp input:focus, textarea:focus {
+.inp input:focus,
+textarea:focus,
+select:focus {
     background: rgba(0, 0, 0, 0.05);
     outline: none;
     box-shadow: inset 0 -2px 0 var(--color-2);
     border-radius: 14px;
 }
 
-.inp input:focus+.label , textarea:focus+.label{
-    color:  var(--color-2);
+.inp input:focus+.label,
+textarea:focus+.label,
+select:focus+.label {
+    color: var(--color-2);
     transform: translate3d(0, -12px, 0) scale(0.75);
 }
 
-.inp input:focus+.label+.focus-bg, textarea:focus+.label+.focus-bg {
+.inp input:focus+.label+.focus-bg,
+textarea:focus+.label+.focus-bg,
+select:focus+.label+.focus-bg {
     transform: scaleX(1);
     transition: all 0.1s ease;
+}
+
+select {
+    background-image: url(/images/Home/img7.png);
+    /* background-size: 14px; */
+    /*aquí deberás escribir la ruta de la imagen que utilizarás como flecha del desplegable*/
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+    /*Evita que se muestre la flecha por defecto en versiones de IE*/
+}
+
+/**************footer*/
+footer {
+    padding: 53px 0px 30px 0px;
+    background-color: var(--color-black);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    position: relative !important;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.s-footer-social>div {
+    width: auto;
+}
+
+.s-footer-social-term>a:link,
+.s-footer-social-term>a:visited,
+.s-footer-social-term>a:active {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.s-footer-social-copy,
+ofsystem > a:link,
+ofsystem > a:visited,
+ofsystem > a:active {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+.s-footer-social-items {
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+.s-footer-social-items>* {
+    margin-left: 12px;
+}
+
+.s-footer-content {
+    padding-bottom: 50px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.s-footer-pag-item > a ,
+.s-footer-pag-item > a:link,
+.s-footer-pag-item > a:visited,
+.s-footer-pag-item > a:active {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.s-footer-content {
+    color: var(--color-white);
+}
+
+.s-footer-contac > div {
+    margin-bottom: 20px;
+}
+
+.s-footer-content-title > h1{
+    font-weight: bold;
+    font-size: 20px;
 }
