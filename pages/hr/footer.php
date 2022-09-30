@@ -21,16 +21,16 @@
       <div class="s-footer-pag col-3">
         <ul>
           <li class="s-footer-pag-item">
-            <a aria-current="page" href="#">Početna</a>
+            <a aria-current="page" href="index.php">Početna</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">O nama</a>
+            <a href="about.php">O nama</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">Tražite radnike?</a>
+            <a href="looking.php">Tražite radnike?</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">Kontaktirajte nas</a>
+            <a href="contact.php">Kontaktirajte nas</a>
           </li>
         </ul>
       </div>

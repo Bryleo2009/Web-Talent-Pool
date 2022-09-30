@@ -21,16 +21,16 @@
       <div class="s-footer-pag col-3">
         <ul>
           <li class="s-footer-pag-item">
-            <a aria-current="page" href="#">Home</a>
+            <a aria-current="page" href="index.php">Home</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">About us</a>
+            <a href="about.php">About us</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">Looking for workers?</a>
+            <a href="looking.php">Looking for workers?</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="#">Contact us</a>
+            <a href="contact.php">Contact us</a>
           </li>
         </ul>
       </div>
