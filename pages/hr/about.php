@@ -5,14 +5,14 @@
   <!--Info-->
   <section id="prin" class="seccion">
     <div class="s-prin row">
-    <div class="s-prin-text col-12">
-         <h1>Specijalizirani smo za zapošljavanje<br>
-           najbolji talent za vas<br>
-           tvrtka.</h1>
-         <p>Obratite nam se s povjerenjem, a mi ćemo pronaći radnika <br>
-           koji savršeno odgovara vašoj tvrtki.</p>
-         <button>Zahtjev</button>
-       </div>
+      <div class="s-prin-text col-12">
+        <h1>Specijalizirani smo za zapošljavanje<br>
+          najbolji talent za vas<br>
+          tvrtka.</h1>
+        <p>Obratite nam se s povjerenjem, a mi ćemo pronaći radnika <br>
+          koji savršeno odgovara vašoj tvrtki.</p>
+        <a href="looking.php"><button>Zahtjev</button></a>
+      </div>
     </div>
   </section>
 
@@ -22,7 +22,7 @@
       <section class="layout">
         <div class="s-compani-content d-flex align-items-center">
           <div class="row">
-          <div class="s-compi-content-item row">
+            <div class="s-compi-content-item row">
               <h1>Tvrtka</h1>
               <p>Talent pool d.o.o. tvrtka osnovana 2022. pruža
                 usluge posredovanja pri zapošljavanju stranih radnika

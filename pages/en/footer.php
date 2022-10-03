@@ -56,6 +56,7 @@
     </div>
   </div>
 </footer>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- jQuery -->
 <script src="../../js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->

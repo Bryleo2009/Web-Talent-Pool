@@ -11,7 +11,7 @@
           company.</h1>
         <p>Contact us with confidance, and we will find a worker <br>
           who is a perfect fit for your company.</p>
-        <button>Request</button>
+        <a href="looking.php"><button>Request</button></a>
       </div>
     </div>
   </section>
