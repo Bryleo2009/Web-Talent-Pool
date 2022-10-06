@@ -399,7 +399,7 @@ select::-ms-expand {
 
 /*************************info************/
 .s-look-img > img {
-    width: 70%;
+    width: 55%;
 }
 
 #look{
@@ -429,6 +429,6 @@ select::-ms-expand {
     font-size: 19px;
 }
 
-.s-look-img > img {
+.s-contacto-img > img {
     width: 40%;
 }

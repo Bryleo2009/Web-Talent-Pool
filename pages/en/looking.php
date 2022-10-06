@@ -6,7 +6,7 @@
     <section id="look" class="seccion">
         <div class="s-look row">
             <div class="s-look-content col-6">
-                <h1>Send request</h1>
+                <h1 class="animate__animated animate__slideInLeft">Send request</h1>
                 <p>To receive a project estimate, fill out the form<br>
                     and we'll get in touch with you</p>
             </div>
@@ -21,42 +21,42 @@
         <div class="s-reque row">
             <div class="s-reque-forms row">
             <form class="form-group col-6" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="employer" name="employer" required="" placeholder="&nbsp;">
             <span class="label">Employer</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
             <span class="label">E-mail</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="cel" name="cel" required="" placeholder="&nbsp;">
             <span class="label">Contact number</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="name" name="name" required="" placeholder="&nbsp;">
             <span class="label">Name</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
             <span class="label">Position</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp ">
-          <input type="number" id="number" name="number" required="" placeholder="&nbsp;">
+          <label for="inp" class="inp" data-aos="zoom-in">
+          <input type="number" min="1" max="100"id="number" name="number" required="" placeholder="&nbsp;">
             <span class="label">Required number of workers</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in">
             <textarea type="text" id="msg" name="msg" required="" placeholder="&nbsp;" rows="4" cols="50"></textarea>
             <span class="label">Message</span>
             <span class="focus-bg"></span>
           </label>
-          <button type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
+          <button  data-aos="zoom-in" class="hvr-bounce-to-right" type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
         </form>
         <div class="s-reque-forms-logo col-6 d-flex align-items-center">
           <!-- <img src="../../images/Home/img6.png" alt=""> -->
@@ -96,8 +96,8 @@
     event.preventDefault();
     if (tipo == 'enviar') {
       Swal.fire({
-        title: "¡Correo enviado!",
-        text: "El correo a sido enviado de forma exitosa",
+        title: "Email sent!",
+        text: "The email has been sent successfully",
         icon: "success",
         showConfirmButton: false,
         timer: 1500

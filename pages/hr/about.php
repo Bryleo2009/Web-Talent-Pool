@@ -1,28 +1,28 @@
 <?php require_once('header.php'); ?>
 
 </html>
-<main>
-  <!--Info-->
+<glavni>
+  <!--Informacije-->
   <section id="prin" class="seccion">
     <div class="s-prin row">
       <div class="s-prin-text col-12">
-        <h1>Specijalizirani smo za zapošljavanje<br>
+        <h1 class="animate__animated animate__slideInLeft">Specijalizirani smo za zapošljavanje<br>
           najbolji talent za vas<br>
           tvrtka.</h1>
         <p>Obratite nam se s povjerenjem, a mi ćemo pronaći radnika <br>
           koji savršeno odgovara vašoj tvrtki.</p>
-        <a href="looking.php"><button>Zahtjev</button></a>
+        <a href="looking.php"><button class="hvr-bounce-to-right">Zahtjev</button></a>
       </div>
     </div>
   </section>
 
-  <!--Compani-->
+  <!--Tvrtka-->
   <section id="compani" class="seccion">
     <div class="s-compani">
       <section class="layout">
         <div class="s-compani-content d-flex align-items-center">
           <div class="row">
-            <div class="s-compi-content-item row">
+            <div class="s-compi-content-item row" data-aos="zoom-out-down" >
               <h1>Tvrtka</h1>
               <p>Talent pool d.o.o. tvrtka osnovana 2022. pruža
                 usluge posredovanja pri zapošljavanju stranih radnika
@@ -31,7 +31,7 @@
                 nas i ima veliki broj talenata u raznim sektorima.
               </p>
             </div>
-            <div class="s-compi-content-item row">
+            <div class="s-compi-content-item row" data-aos="zoom-out-down" >
               <h1>Kvaliteta</h1>
               <p>Veliki dio naših kandidata je visoko obrazovan
                 mladih između 21 i 35 godina, s
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="s-compani-img d-flex align-items-center justify-content-center">
-          <img src="../../images/About/img1.png" alt="">
+          <img data-aos="zoom-in-left" src="../../images/About/img1.png" alt="">
         </div>
       </section>
     </div>

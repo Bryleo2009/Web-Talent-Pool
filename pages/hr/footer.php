@@ -38,7 +38,7 @@
     <div class="row s-footer-social d-flex justify-content-between">
       <div class="s-footer-social-items"><i class='bx bxl-instagram'></i><i class='bx bxl-twitter'></i></div>
       <div class="s-footer-social-copy">
-        <script>
+      <script>
           var creditaje = 'ofsystem';
           var link = 'https://bryleo2009.github.io/Creditaje-OfSystem/';
           var text = '© All rights reserved - 2022';
@@ -56,6 +56,7 @@
     </div>
   </div>
 </footer>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- jQuery -->
 <script src="../../js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
@@ -73,7 +74,12 @@
 <script src="http://maps.googleapis.com/maps/api/js?extension=.js&output=embed"></script>
 <!-- Footer Reveal scirt -->
 <script src="../../js/footer-reveal.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 

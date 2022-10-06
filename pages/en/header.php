@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <!--metadatos-->
@@ -12,6 +12,10 @@
   <script src="https://kit.fontawesome.com/1f84f73194.js" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="../../css/hover.css">
   <!--icono, css, js-->
   <link rel="icon" href="img/SystemLogo.ico">
 
@@ -20,16 +24,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/principal.css">
-
-  <!--título-->
-  <title>T</title>
 </head>
 
 <body>
   <header class="d-flex justify-content-center">
-    <nav class="navbar navbar-expand-lg bg-light row">
+    <nav class="navbar navbar-expand-lg bg-light row animate__animated animate__fadeInDown">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Talent Pool</a>
+        <a class="navbar-brand" href="index.php">Talent Pool</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +49,7 @@
               <a class="nav-link pestaña" id="contact" href="contact.php">CONTACT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña idioma" href="../hr/index.php">HR</a>
+              <a class="nav-link pestaña idioma hvr-outline-out " href="../hr/index.php">HR</a>
             </li>
           </ul>
         </div>

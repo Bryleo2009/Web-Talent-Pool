@@ -6,12 +6,12 @@
   <section id="prin" class="seccion">
     <div class="s-prin row">
       <div class="s-prin-text col-12">
-        <h1>We specialize in recruiting<br>
+        <h1 class="animate__animated animate__slideInLeft">We specialize in recruiting<br>
           the best talent for your<br>
           company.</h1>
         <p>Contact us with confidance, and we will find a worker <br>
           who is a perfect fit for your company.</p>
-        <a href="looking.php"><button>Request</button></a>
+        <a href="looking.php"><button class="hvr-bounce-to-right">Request</button></a>
       </div>
     </div>
   </section>
@@ -22,7 +22,7 @@
       <section class="layout">
         <div class="s-compani-content d-flex align-items-center">
           <div class="row">
-            <div class="s-compi-content-item row">
+            <div class="s-compi-content-item row" data-aos="zoom-out-down" >
               <h1>Company</h1>
               <p>Talent pool d.o.o. company founded in 2022, provides
                 mediation services in the employment of foreign workers
@@ -31,7 +31,7 @@
                 us and has a large talent pool in various sectors.
               </p>
             </div>
-            <div class="s-compi-content-item row">
+            <div class="s-compi-content-item row" data-aos="zoom-out-down" >
               <h1>Quality</h1>
               <p>A large portion of our candidates are highly educated
                 young people between the ages of 21 and 35, with the
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="s-compani-img d-flex align-items-center justify-content-center">
-          <img src="../../images/About/img1.png" alt="">
+          <img data-aos="zoom-in-left" src="../../images/About/img1.png" alt="">
         </div>
       </section>
     </div>

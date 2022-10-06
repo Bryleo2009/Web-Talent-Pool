@@ -6,12 +6,12 @@
   <section id="info" class="seccion">
     <div class="s-info row">
       <div class="s-info-text col-6">
-        <h1>Looking for foreing workers?</h1>
+        <h1 class="animate__animated animate__slideInLeft">Looking for foreing workers?</h1>
         <p>Do you have a staff shortage for the upcoming tourist
           season? Whether you need personnel for the tourism sector,
           production, construction, or technical jobs, together with our
           partner in Lima we will help you find workers from Peru.</p>
-        <button>Request</button>
+        <a href="looking.php"><button class="hvr-bounce-to-right">Request</button></a>
       </div>
       <div class="s-info-logo col-6 d-flex align-items-center justify-content-center">
         <img src="../../images/Home/img1.png" alt="">
@@ -22,7 +22,7 @@
   <!--Procedure-->
   <section id="proce" class="seccion">
     <div class="s-proce row">
-      <h1>Procedure</h1>
+      <h1 data-aos="fade-up" >Procedure</h1>
       <div class="s-proce-text col-5">
         <p>All you need to do is to fill in the form for the
           required worker profile, and we will do the
@@ -34,7 +34,7 @@
         </p>
       </div>
       <div class="s-proce-items col-7">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="zoom-out-down" >
           <div class="s-proce-img col-4">
             <img src="../../images/Home/img2.png" alt="">
           </div>
@@ -45,7 +45,7 @@
               and job-specific skills.</p>
           </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="zoom-out-down" >
           <div class="s-proce-img col-4">
             <img src="../../images/Home/img3.png" alt="">
           </div>
@@ -57,7 +57,7 @@
               interviews with shortlisted candidates.</p>
           </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="zoom-out-down" >
           <div class="s-proce-img col-4">
             <img src="../../images/Home/img4.png" alt="">
           </div>
@@ -69,7 +69,7 @@
               citizens of Peru.</p>
           </div>
         </div>
-        <div class="row align-items-center" style="padding-bottom: 0 !important;">
+        <div class="row align-items-center" data-aos="zoom-out-down"  style="padding-bottom: 0 !important;">
           <div class="s-proce-img col-4">
             <img src="../../images/Home/img5.png" alt="">
           </div>
@@ -87,48 +87,48 @@
   <section id="reque" class="seccion">
     <div class="s-reque row">
       <div class="s-reque-title">
-        <h1>Send request</h1>
+        <h1 data-aos="fade-up" >Send request</h1>
         <p>To receive a project estimate, fill out the form <br>
           and we'll get in touch with you.</p>
       </div>
       <div class="s-reque-forms row">
         <form class="form-group col-6" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <input type="text" id="employer" name="employer" required="" placeholder="&nbsp;">
             <span class="label">Employer</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
             <span class="label">E-mail</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <input type="text" id="cel" name="cel" required="" placeholder="&nbsp;">
             <span class="label">Contact number</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <input type="text" id="name" name="name" required="" placeholder="&nbsp;">
             <span class="label">Name</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
             <span class="label">Position</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
-          <input type="number" id="number" name="number" required="" placeholder="&nbsp;">
+          <label for="inp" class="inp" data-aos="zoom-in" >
+          <input type="number" min="1" max="100"id="number" name="number" required="" placeholder="&nbsp;">
             <span class="label">Required number of workers</span>
             <span class="focus-bg"></span>
           </label>
-          <label for="inp" class="inp">
+          <label for="inp" class="inp" data-aos="zoom-in" >
             <textarea type="text" id="msg" name="msg" required="" placeholder="&nbsp;" rows="4" cols="50"></textarea>
             <span class="label">Message</span>
             <span class="focus-bg"></span>
           </label>
-          <button type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
+          <button  data-aos="zoom-in" class="hvr-bounce-to-right" type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
         </form>
         <div class="s-reque-forms-logo col-6 d-flex align-items-center">
           <img src="../../images/Home/img6.png" alt="">
@@ -168,8 +168,8 @@
     event.preventDefault();
     if (tipo == 'enviar') {
       Swal.fire({
-        title: "¡Correo enviado!",
-        text: "El correo a sido enviado de forma exitosa",
+        title: "Email sent!",
+        text: "The email has been sent successfully",
         icon: "success",
         showConfirmButton: false,
         timer: 1500

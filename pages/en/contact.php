@@ -6,7 +6,7 @@
     <section id="contacto" class="seccion">
         <div class="s-contacto row">
             <div class="s-contacto-content col-6 ">
-                <h1>Contact us</h1>
+                <h1 class="animate__animated animate__slideInLeft">Contact us</h1>
                 <p>Send us a message using the form below.</p>
             </div>
             <div class="s-contacto-img col-6 d-flex align-items-center justify-content-center">
@@ -20,27 +20,27 @@
         <div class="s-reque row">
             <div class="s-reque-forms row">
                 <form class="form-group col-6" method="post" action="../../ofsystem/enviar_contacto.php" id="forms" enctype="multipart/form-data">
-                    <label for="inp" class="inp">
+                    <label for="inp" class="inp" data-aos="zoom-in">
                         <input type="text" class="formulario-white" id="name" name="name" required="" placeholder="&nbsp;">
                         <span class="label">First name</span>
                         <span class="focus-bg"></span>
                     </label>
-                    <label for="inp" class="inp">
+                    <label for="inp" class="inp" data-aos="zoom-in">
                         <input type="text" class="formulario-white" id="lastname" name="lastname" required=""  placeholder="&nbsp;">
                         <span class="label">Last name</span>
                         <span class="focus-bg"></span>
                     </label>
-                    <label for="inp" class="inp">
+                    <label for="inp" class="inp" data-aos="zoom-in">
                         <input type="email" class="formulario-white" id="email" name="email" required="" placeholder="&nbsp;">
                         <span class="label">E-mail</span>
                         <span class="focus-bg"></span>
                     </label>
-                    <label for="inp" class="inp">
+                    <label for="inp" class="inp" data-aos="zoom-in">
                         <textarea type="text" class="formulario-white" id="msg" name="msg" required="" placeholder="&nbsp;" rows="4" cols="50"></textarea>
                         <span class="label">Message</span>
                         <span class="focus-bg"></span>
                     </label>
-                    <button type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
+                    <button data-aos="zoom-in" class="hvr-bounce-to-right" type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Send</button>
                 </form>
                 <!-- <div class="s-reque-forms-logo col-6 d-flex align-items-center">
           <img src="images/Home/img6.png" alt="">
@@ -74,8 +74,8 @@
     event.preventDefault();
     if (tipo == 'enviar') {
       Swal.fire({
-        title: "¡Correo enviado!",
-        text: "El correo a sido enviado de forma exitosa",
+        title: "Email sent!",
+        text: "The email has been sent successfully",
         icon: "success",
         showConfirmButton: false,
         timer: 1500
