@@ -16,7 +16,7 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
   <link rel="stylesheet" href="../../css/hover.css">
   <!--icono, css, js-->
-  <link rel="icon" href="img/SystemLogo.ico">
+  <link rel="icon" href="../../images/SystemLogo.ico">
 
   <!-- Bootstrap Core CSS -->
   <!-- CSS only -->
@@ -48,7 +48,7 @@
               <a class="nav-link pestaña" id="contact" href="contact.php">KONTAKT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña idioma hvr-outline-out " href="../en/index.php">ES</a>
+              <a class="nav-link pestaña idioma hvr-outline-out " href="../en/index.php">EN</a>
             </li>
           </ul>
         </div>

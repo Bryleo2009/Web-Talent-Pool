@@ -13,8 +13,8 @@ $redireccion = "../pages/en/index.php";
     $msg = $_POST['msg']; 
 
     //variables del e-mail
-    $correoDestino = "R.R.H.H. <bryleo2009@hotmail.com>";
-    $asunto = "Mail_server Prueba - Solicitud";
+    $correoDestino = "ainglish@certicom.com.pe";
+    $asunto = "Request email";
 
     //cuerpo del e-mail
     $html_empresa = require('email/empresa_s.php');
@@ -71,17 +71,23 @@ $redireccion = "../pages/en/index.php";
         $respuesta_empresa = "correo no enviado al empresa";
     }
 
+    $correoDestino = "murbina@certicom.com.pe";
+    if (mail($correoDestino, $asunto, $cuerpo, $cabecera)) {
+        $respuesta_empresa = "correo enviado exitosamente al empresa";
+    } else {
+        $respuesta_empresa = "correo no enviado al empresa";
+    }
 
     /*************E-mail a cliente */
     //variables del e-mail
     $correoDestino = $mail;
-    $asunto = "Mail_server Prueba - cliente";
+    $asunto = "Talent Pool";
 
     //Mensaje en formato Multipart MIME -> cabecera
     $cabecera = "MIME-VERSION: 1.@\r\n";
     $cabecera .= "Content-type: multipart/mixed;";
     $cabecera .= "boundary=\"=O=F=S=Y=S=T=E=M=\"\r\n"; //SE USA COMO SEPARADOR DE PARTES DEL EMAIL
-    $cabecera .= "From: Of System <info@ofsystem.com>";
+    $cabecera .= "From: Talent Pool <no-reply@talentpool.com.pe>";
 
     //Primera parte del cuerpo
     $cuerpo = "--=O=F=S=Y=S=T=E=M=\r\n";
@@ -107,4 +113,4 @@ $redireccion = "../pages/en/index.php";
   //  $respuesta = "existen campos vacios";
 //}
 //echo "<script>alert(' . $respuesta . ')</script>";
-echo "<script> setTimeout(\"location.href='" . $redireccion . "'\",100)</script>";
+echo "<script> setTimeout(\"location.href='" . $redireccion . "'\",1)</script>";

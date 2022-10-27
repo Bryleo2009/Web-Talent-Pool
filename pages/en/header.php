@@ -17,7 +17,7 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
   <link rel="stylesheet" href="../../css/hover.css">
   <!--icono, css, js-->
-  <link rel="icon" href="img/SystemLogo.ico">
+  <link rel="icon" href="../../images/SystemLogo.ico">
 
   <!-- Bootstrap Core CSS -->
   <!-- CSS only -->

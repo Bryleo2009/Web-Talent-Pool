@@ -7,7 +7,7 @@
       <div class="s-footer-contac col-3">
         <div class="row">
           <h1>E-POŠTA</h1>
-          <p>info@talentpool.com<br>sales@talentpool.com</p>
+          <p>info@talentpool.com.pe<br>sales@talentpool.com.pe</p>
         </div>
         <div class="row">
           <h1>TELEFON</h1>
