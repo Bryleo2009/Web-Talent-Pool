@@ -195,12 +195,12 @@ li {
 }
 
 .s-proce-item-content {
-    border: 1px ridge rgba(15, 60, 89, 0.1);
-    border-radius: 31px;
     width: 23%;
     padding: 20px;
     margin: 8px;
     text-align: center;
+    border: 1px ridge rgba(15, 60, 89, 0.1);
+    border-radius: 31px;
     -webkit-box-shadow: 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
 }
@@ -389,6 +389,44 @@ select::-ms-expand {
 
 .s-reque-forms>form>button {
     margin-top: 20px;
+}
+
+
+/************review*/
+.s-review>h1 {
+    font-size: 45px;
+}
+
+.s-review-item-sup > img {
+    width: 20%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.s-review-item{
+    border: 1px ridge rgba(15, 60, 89, 0.1);
+    border-radius: 31px;
+    -webkit-box-shadow: 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 18px;
+    width: 30%;
+}
+
+.review-item-inf-star > *{
+    color: rgb(183,183,183);
+}
+
+.star-active{
+    color: rgb(255, 148, 27) !important;
+}
+
+.review-item-inf-name > h2{
+    font-size: 16px;
+}
+
+.review-item-inf-name > h3{
+    font-size: 13px;
 }
 
 /*---------------------------ABOUT------------------*/

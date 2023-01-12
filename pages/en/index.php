@@ -133,6 +133,78 @@
       </div>
     </div>
   </section>
+
+  <!--Reviews-->
+  <section id="review" class="seccion">
+    <div class="s-review row">
+      <h1 data-aos="fade-up" class="text-center">Procedure</h1>
+      <div class="row s-review-items col-12">
+        <div class="s-review-item col-4">
+          <div class="s-review-item-sup">
+            <img src="../../images/Home/p1.jpg" alt="">
+            <p>It generates hundreds of useful copy for your
+              specific product and audience with the
+              minimum effort.</p>
+          </div>
+          <div class="s-review-item-inf">
+            <div class="review-item-inf-name">
+              <h2>Bryan Morán</h2>
+              <h3>Web Developer</h3>
+            </div>
+            <div class="review-item-inf-star">
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="s-review-item col-4">
+          <div class="s-review-item-sup">
+            <img src="../../images/Home/p2.jpg" alt="">
+            <p>It generates hundreds of useful copy for your
+              specific product and audience with the
+              minimum effort.</p>
+          </div>
+          <div class="s-review-item-inf">
+            <div class="review-item-inf-name">
+              <h2>Bryan Morán</h2>
+              <h3>Web Developer</h3>
+            </div>
+            <div class="review-item-inf-star">
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+            </div>
+          </div>
+        </div>
+        <div class="s-review-item col-4">
+          <div class="s-review-item-sup">
+            <img src="../../images/Home/p3.jpg" alt="">
+            <p>It generates hundreds of useful copy for your
+              specific product and audience with the
+              minimum effort.</p>
+          </div>
+          <div class="s-review-item-inf">
+            <div class="review-item-inf-name">
+              <h2>Bryan Morán</h2>
+              <h3>Web Developer</h3>
+            </div>
+            <div class="review-item-inf-star">
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star star-active"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <script>

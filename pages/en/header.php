@@ -9,7 +9,7 @@
   <meta name="author" content="Bryan A. Morán Vega">
   <meta name="copyright" content="Of System ®">
   <!--íconos de la web-->
-  <script src="https://kit.fontawesome.com/1f84f73194.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/e3a4a2320e.js" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
