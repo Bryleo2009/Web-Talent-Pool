@@ -47,14 +47,14 @@
         </p>
       </div>
       <div class="row s-proce-items col-12">
-        <div class="s-proce-item-content col-3">
+        <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>1</h2>
           <h1>Request for the desired profile</h1>
           <p>Occupation, job description, number of
             candidates, work experience, education
             and job-specific skills.</p>
         </div>
-        <div class="s-proce-item-content col-3">
+        <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>2</h2>
           <h1>Selection of candidates</h1>
           <p>We select candidates for the required
@@ -62,7 +62,7 @@
             client. Clients have the option of video
             interviews with shortlisted candidates.</p>
         </div>
-        <div class="s-proce-item-content col-3">
+        <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>3</h2>
           <h1>Work permits</h1>
           <p>We collect the documentation from
@@ -70,7 +70,7 @@
             work permit. Visas are not required for
             citizens of Peru.</p>
         </div>
-        <div class="s-proce-item-content col-3">
+        <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>4</h2>
           <h1>Arrival of candidates</h1>
           <p>We provide support with the candidate's
@@ -137,16 +137,16 @@
   <!--Reviews-->
   <section id="review" class="seccion">
     <div class="s-review row">
-      <h1 data-aos="fade-up" class="text-center">Procedure</h1>
+      <h1 data-aos="fade-up" class="text-center">Recent reviews</h1>
       <div class="row s-review-items col-12">
-        <div class="s-review-item col-4">
+        <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
             <p>It generates hundreds of useful copy for your
               specific product and audience with the
               minimum effort.</p>
           </div>
-          <div class="s-review-item-inf">
+          <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
               <h2>Bryan Morán</h2>
               <h3>Web Developer</h3>
@@ -160,14 +160,14 @@
             </div>
           </div>
         </div>
-        <div class="s-review-item col-4">
+        <div class="s-review-item col-4" data-aos="fade-up">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p2.jpg" alt="">
             <p>It generates hundreds of useful copy for your
               specific product and audience with the
               minimum effort.</p>
           </div>
-          <div class="s-review-item-inf">
+          <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
               <h2>Bryan Morán</h2>
               <h3>Web Developer</h3>
@@ -181,14 +181,14 @@
             </div>
           </div>
         </div>
-        <div class="s-review-item col-4">
+        <div class="s-review-item col-4" data-aos="fade-up-left">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p3.jpg" alt="">
             <p>It generates hundreds of useful copy for your
               specific product and audience with the
               minimum effort.</p>
           </div>
-          <div class="s-review-item-inf">
+          <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
               <h2>Bryan Morán</h2>
               <h3>Web Developer</h3>
