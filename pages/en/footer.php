@@ -1,8 +1,8 @@
-<footer >
+<footer>
   <div class="row s-footer">
     <div class="row s-footer-content">
       <div class="s-footer-content-title col-3">
-        <h1>Talent Pool</h1>
+        <img src="../../images/Footer/logobn.png" alt="">
       </div>
       <div class="s-footer-contac col-3">
         <div class="row">
@@ -32,11 +32,23 @@
           <li class="s-footer-pag-item">
             <a href="contact.php">Contact us</a>
           </li>
+          <li class="s-footer-pag-item">
+            <a href="">Terms and Conditions</a>
+          </li>
+          <li class="s-footer-pag-item">
+            <a href="">Privacy Policy</a>
+          </li>
         </ul>
       </div>
     </div>
-    <div class="row s-footer-social d-flex justify-content-between">
-      <div class="s-footer-social-items"><i class='bx bxl-instagram'></i><i class='bx bxl-twitter'></i></div>
+    <div class="row s-footer-social">
+      <div class="s-footer-social-items col-12">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <h1>Copyright © TalentPool 2022</h1>
       <div class="s-footer-social-copy">
         <script>
           var creditaje = 'ofsystem';
@@ -49,12 +61,13 @@
             '</' + creditaje + '>');
         </script>
       </div>
-      <div class="s-footer-social-term">
-        <a href="">Terms and Conditions</a>
-        <a href="">Privacy Policy</a>
-      </div>
     </div>
-  </div>
+    <img class="abst-5" src="../../images/Footer/Fill.png">
+    <img class="abst-6" src="../../images/Footer/Abstract.png">
+    <img class="abst-7" src="../../images/Footer/Fill.png">
+    <img class="abst-8" src="../../images/Footer/Fill.png">
+    <img class="abst-9" src="../../images/Footer/Fill.png">
+    <img class="abst-10" src="../../images/Footer/Abstract.png">
 </footer>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- jQuery -->

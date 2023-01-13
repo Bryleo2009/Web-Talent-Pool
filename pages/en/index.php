@@ -17,20 +17,12 @@
         <a href="looking.php"><button class="hvr-bounce-to-right">Request</button></a>
       </div>
     </div>
-    <div class="abst-1">
-      <img src="../../images/Home/Abstract-3.png" alt="">
-    </div>
+    <img class="abst-1" src="../../images/Home/Abstract-3.png" alt="">
   </section>
 
   <!--Abstract-->
-  <div>
-    <div class="abst-2">
-      <img src="../../images/Home/Abstract-2.png" alt="">
-    </div>
-    <div class="abst-3">
-      <img src="../../images/Home/Abstract-1.png" alt="">
-    </div>
-  </div>
+  <img class="abst-2" src="../../images/Home/Abstract-2.png" alt="">
+  <img class="abst-3" src="../../images/Home/Abstract-1.png" alt="">
 
   <!--Procedure-->
   <section id="proce" class="seccion">
@@ -78,9 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="abst-4">
-      <img src="../../images/Home/Abstract-1.png" alt="">
-    </div>
+    <img class="abst-4" src="../../images/Home/Abstract-1.png" alt="">
   </section>
 
   <!--Request-->

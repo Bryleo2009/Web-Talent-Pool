@@ -60,7 +60,7 @@ button {
 /**************footer*/
 footer {
     padding: 53px 0px 30px 0px;
-    background-color: var(--color-black);
+    background-color: var(--color-2);
     bottom: 0;
     left: 0;
     right: 0;
@@ -68,10 +68,6 @@ footer {
     position: relative !important;
     bottom: 0px;
     width: 100%;
-}
-
-.s-footer-social>div {
-    width: auto;
 }
 
 .s-footer-social-term>a:link,
@@ -88,17 +84,39 @@ ofsystem>a:link,
 ofsystem>a:visited,
 ofsystem>a:active {
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-2);
     font-size: 14px;
 }
 
 .s-footer-social-items {
-    font-size: 20px;
+    font-size: 20px; 
+    color: var(--color-white);
+    width: 100%;
+}
+
+.s-footer-social>* {
     color: var(--color-white);
 }
 
 .s-footer-social-items>* {
-    margin-left: 12px;
+    margin: 12px;
+    font-size: 12px;
+    background-color: var(--color-white);
+    padding: 8px;
+    color: var(--color-2);
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+}
+
+.s-footer-social{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.s-footer-social > h1{
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 .s-footer-content {
@@ -127,11 +145,51 @@ li {
     margin-bottom: 20px;
 }
 
-.s-footer-content-title>h1 {
-    font-weight: bold;
-    font-size: 20px;
+.s-footer-content-title>img {
+    width: 70%;
 }
 
+.abst-5{
+    position: absolute;
+    left: -180px;
+    bottom: 20px;
+    width: 300px;
+}
+
+.abst-6{
+    position: absolute;
+    bottom: 50%;
+    left: 100px;
+    width: 80px;
+}
+
+.abst-7{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    width: 50px;
+}
+
+.abst-8{
+    position: absolute;
+    right: -180px;
+    top: 60px;
+    width: 300px;
+}
+
+.abst-9{
+    position: absolute;
+    top: 32px;
+    right: 35px;
+    width: 50px;
+}
+
+.abst-10{
+    position: absolute;
+    top: 290px;
+    right: 107px;
+    width: 111px;
+}
 /*---------------------------HOME------------------*/
 
 /*************************info************/
