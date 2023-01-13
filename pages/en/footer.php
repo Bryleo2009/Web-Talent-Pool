@@ -65,7 +65,7 @@
     <img class="abst-5" src="../../images/Footer/Fill.png">
     <img class="abst-6" src="../../images/Footer/Abstract.png">
     <img class="abst-7" src="../../images/Footer/Fill.png">
-    <img class="abst-8" src="../../images/Footer/Fill.png">
+    <img class="abst-8" src="../../images/Footer/Fill-medio.png">
     <img class="abst-9" src="../../images/Footer/Fill.png">
     <img class="abst-10" src="../../images/Footer/Abstract.png">
 </footer>

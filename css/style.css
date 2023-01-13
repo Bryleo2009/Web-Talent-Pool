@@ -172,9 +172,9 @@ li {
 
 .abst-8{
     position: absolute;
-    right: -180px;
-    top: 60px;
-    width: 300px;
+    right: -12px;
+    top: 70px;
+    width: 162px;
 }
 
 .abst-9{
@@ -506,6 +506,10 @@ select::-ms-expand {
     font-size: 60px;
 }
 
+.s-prin-img > img {
+    width: 100%;
+}
+
 .s-prin-text>p {
     font-size: 18px;
 }
@@ -518,14 +522,41 @@ select::-ms-expand {
     background-color: var(--color-3);
 }
 
-/*************compani************/
-.layout {
-    width: 100%;
-    display: grid;
-    grid:
-        "s-compani-content s-compani-img" 100% / 50% 50%;
+.abst-11{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 173px;
 }
 
+.abst-12{
+    position: relative;
+    top: -30px;
+    left: 673px;
+    width: 177px;
+}
+
+.abst-13{
+    position: absolute;
+    bottom: 101px;
+    right: 0px;
+    width: 279px;
+}
+
+.abst-14 {
+    position: absolute;
+    transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+}
+
+.abst-15 {
+    position: absolute;
+    width: 260px;
+    right: -110px;
+    top: 2968px;
+}
+/*************compani************/
 .s-compani-content {
     grid-area: s-compani-content;
 }
@@ -542,15 +573,14 @@ select::-ms-expand {
     padding: 0 !important;
 }
 
-.s-compani {
-    width: 90%;
-    margin: 0px 0px 0px auto;
+.s-compi-content-item{
+    background-color: var(--color-2);
+    color: var(--color-white);
+    padding: 100px;
 }
 
-.s-compi-content-item {
-    margin-top: 50px !important;
-    margin-left: 0 !important;
-    padding-left: 0;
+.company { 
+    text-align: right;
 }
 
 .s-compi-content-item>h1 {
@@ -563,6 +593,14 @@ select::-ms-expand {
     font-size: 18px;
     margin-left: 0 !important;
     padding-left: 0;
+}
+
+.s-compi-content-img > img {
+    width: 100%;
+}
+
+.s-compi-content-img-2 > img {
+    width: 80%;
 }
 
 /*---------------------------LOOKING------------------*/
