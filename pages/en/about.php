@@ -112,7 +112,7 @@
         </form>
       </div>
     </div>
-    <img class="abst-15" src="../../images/Home/Abstract-2.png" alt="">
+    <img class="abst-15" src="../../images/About/Abstract-21.png" alt="">
   </section>  
 </main>
 

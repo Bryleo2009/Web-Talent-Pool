@@ -172,9 +172,10 @@ li {
 
 .abst-8{
     position: absolute;
-    right: -12px;
-    top: 70px;
-    width: 162px;
+    right: -1px;
+    top: 62px;
+    width: 161px;
+    padding: 0px;
 }
 
 .abst-9{
@@ -187,7 +188,7 @@ li {
 .abst-10{
     position: absolute;
     top: 290px;
-    right: 107px;
+    right: 128px;
     width: 111px;
 }
 /*---------------------------HOME------------------*/
@@ -502,6 +503,11 @@ select::-ms-expand {
 
 /*---------------------------ABOUT------------------*/
 /************info*******/
+.s-prin-text{
+    position: relative;
+    z-index: 2;
+}
+
 .s-prin-text>h1 {
     font-size: 60px;
 }
@@ -525,8 +531,9 @@ select::-ms-expand {
 .abst-11{
     position: absolute;
     top: 140px;
-    left: 0;
+    left: -73px;
     width: 173px;
+    z-index: 1;
 }
 
 .abst-12{
@@ -552,9 +559,9 @@ select::-ms-expand {
 
 .abst-15 {
     position: absolute;
-    width: 260px;
-    right: -110px;
-    top: 2968px;
+    width: 153px;
+    right: -10px;
+    top: 2977px;
 }
 /*************compani************/
 .s-compani-content {
@@ -607,7 +614,7 @@ select::-ms-expand {
 
 /*************************info************/
 .s-look-img>img {
-    width: 55%;
+    width: 100%;
 }
 
 #look {
