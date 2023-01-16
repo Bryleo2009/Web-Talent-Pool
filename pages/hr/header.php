@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hr">
+
 <head>
   <!--metadatos-->
   <meta charset="UTF-8">
@@ -8,7 +9,7 @@
   <meta name="author" content="Bryan A. Morán Vega">
   <meta name="copyright" content="Of System ®">
   <!--íconos de la web-->
-  <script src="https://kit.fontawesome.com/1f84f73194.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/e3a4a2320e.js" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -25,18 +26,18 @@
   <link rel="stylesheet" href="../../css/principal.css">
 </head>
 
-<tijelo>
+<body>
   <header class="d-flex justify-content-center">
     <nav class="navbar navbar-expand-lg bg-light row animate__animated animate__fadeInDown">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">Talent Pool</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label ="Prebaci navigaciju">
+        <a class="navbar-brand" href="index.php"><img src="../../images/Header/Logo Talent pool-01 2.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse show justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link pestaña" aria-current="page" href="index.php" id="home">POČETNA</a>
+              <a class="nav-link pestaña" aria-current="page" href="index.php" id="home">Početna</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pestaña" href="about.php" id="about">O NAMA</a>
@@ -45,7 +46,7 @@
               <a class="nav-link pestaña" href="looking.php" id="looking">TRAŽITE RADNIKE?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña" id="contact" href="contact.php">KONTAKT</a>
+              <a class="nav-link pestaña" id="contact" href="contact.php">KONTAKTIRAJTE NAS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pestaña idioma hvr-outline-out " href="../en/index.php">EN</a>

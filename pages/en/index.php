@@ -132,14 +132,12 @@
         <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
-            <p>It generates hundreds of useful copy for your
-              specific product and audience with the
-              minimum effort.</p>
+            <p>I managed to find a super company capable of improving my skills in the market, thanks to Talent Pool.</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
-              <h2>Bryan Morán</h2>
-              <h3>Web Developer</h3>
+              <h2>Emma Miller</h2>
+              <h3>Commercial Assistant</h3>
             </div>
             <div class="review-item-inf-star">
               <i class="fa-solid fa-star star-active"></i>
@@ -153,13 +151,11 @@
         <div class="s-review-item col-4" data-aos="fade-up">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p2.jpg" alt="">
-            <p>It generates hundreds of useful copy for your
-              specific product and audience with the
-              minimum effort.</p>
+            <p>Thanks to the Talent Pool, I managed to get a stable job full of many opportunities.</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
-              <h2>Bryan Morán</h2>
+              <h2>Bryan Moran</h2>
               <h3>Web Developer</h3>
             </div>
             <div class="review-item-inf-star">
@@ -174,14 +170,12 @@
         <div class="s-review-item col-4" data-aos="fade-up-left">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p3.jpg" alt="">
-            <p>It generates hundreds of useful copy for your
-              specific product and audience with the
-              minimum effort.</p>
+            <p>I got great foreign employees for my company and it is the best decision I could have made!.</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
-              <h2>Bryan Morán</h2>
-              <h3>Web Developer</h3>
+              <h2>Cristhoper Williams</h2>
+              <h3>Financial Manager</h3>
             </div>
             <div class="review-item-inf-star">
               <i class="fa-solid fa-star star-active"></i>

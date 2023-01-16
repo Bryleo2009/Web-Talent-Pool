@@ -2,69 +2,70 @@
 
 </html>
 <main>
-    <!--Info-->
-    <section id="look" class="seccion">
-         <div class="s-look row">
-             <div class="s-look-content col-6">
-                 <h1 class="animate__animated animate__slideInLeft">Pošalji zahtjev</h1>
-                 <p>Da biste dobili procjenu projekta, ispunite obrazac<br>
-                     i mi ćemo vas kontaktirati</p>
-             </div>
-             <div class="s-look-img col-6 d-flex align-items-center justify-content-center">
-                 <img src="../../images/Looking/img1.png" alt="">
-             </div>
-         </div>
-     </section>
+  <!--Info-->
+  <section id="look" class="seccion">
+    <div class="s-look row">
+      <div class="s-look-content col-6">
+        <h1 class="animate__animated animate__slideInLeft">Pošalji zahtjev</h1>
+        <p>Da biste dobili procjenu projekta, ispunite obrazac<br>
+          i mi ćemo vas kontaktirati</p>
+      </div>
+      <div class="s-look-img col-6 d-flex align-items-center justify-content-center">
+        <img src="../../images/Looking/undraw_work_chat_re_qes4 2.png" alt="">
+      </div>
+    </div>
+  </section>
 
-    <!--contact-->
-    <section id="send" class="seccion">
-        <div class="s-reque row">
-            <div class="s-reque-forms row">
-                <form class="form-group col-6">
-                    <form class="form-group col-6" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="text" id="employer" name="employer" required="" placeholder="&nbsp;">
-                            <span class="label">Poslodavac</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
-                            <span class="label">E-pošta</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="text" id="cel" name="cel" required="" placeholder="&nbsp;">
-                            <span class="label">Kontakt broj</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="text" id="name" name="name" required="" placeholder="&nbsp;">
-                            <span class="label">Ime</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
-                            <span class="label">Pozicija</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <input type="number" min="1" max="100"id="number" name="number" required="" placeholder="&nbsp;">
-                            <span class="label">Potreban broj radnika</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <label for="inp" class="inp" data-aos="zoom-in">
-                            <textarea type="text" id="msg" name="msg" required="" placeholder="&nbsp;" rows="4" cols="50"></textarea>
-                            <span class="label">Poruka</span>
-                            <span class="focus-bg"></span>
-                        </label>
-                        <button data-aos="zoom-in" class="hvr-bounce-to-right" type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Pošalji</button>
-                    </form>
-                    <!-- <div class="s-reque-forms-logo col-6 d-flex align-items-center">
-          <img src="images/Home/img6.png" alt="">
-        </div> -->
-            </div>
-        </div>
-    </section>
+  <!--Request-->
+  <section id="reque" class="seccion">
+    <div class="s-reque row">
+      <div class="s-reque-title">
+        <h1 data-aos="fade-up" class="text-center">Pošalji zahtjev</h1>
+        <p class="text-center">Za procjenu projekta ispunite obrazac
+          i mi ćemo stupiti u kontakt s vama.</p>
+      </div>
+      <div class="s-reque-forms row">
+        <form class="form-group request-home col-12" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="text" id="employer" name="employer" required="" placeholder="&nbsp;">
+            <span class="label">Poslodavac</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
+            <span class="label">e-pošta</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="text" id="cel" name="cel" required="" placeholder="&nbsp;">
+            <span class="label">Kontakt broj</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="text" id="name" name="name" required="" placeholder="&nbsp;">
+            <span class="label">Ime</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
+            <span class="label">Položaj</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <input type="number" min="1" max="100" id="number" name="number" required="" placeholder="&nbsp;">
+            <span class="label">Potreban broj radnika</span>
+            <span class="focus-bg"></span>
+          </label>
+          <label for="inp" class="inp" data-aos="zoom-in">
+            <textarea type="text" id="msg" name="msg" required="" placeholder="&nbsp;" rows="4" cols="50"></textarea>
+            <span class="label">Poruka</span>
+            <span class="focus-bg"></span>
+          </label>
+          <button data-aos="zoom-in" class="hvr-bounce-to-right" type="submit" name="enviar" id="btn" onclick="modal('enviar','forms')" disabled>Poslati</button>
+        </form>
+      </div>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -79,7 +80,7 @@
     t4 = document.getElementById("name").value.length;
     t5 = document.getElementById("position").value.length;
     t6 = document.getElementById("number").value;
-    if (t1 >= 3 && t2 >= 3 && t3 >= 5 && t4 >= 3 && t5 >= 3 && t6 >0) {
+    if (t1 >= 3 && t2 >= 3 && t3 >= 5 && t4 >= 3 && t5 >= 3 && t6 > 0) {
       document.getElementById("btn").disabled = false;
     } else {
       document.getElementById("btn").disabled = true;
