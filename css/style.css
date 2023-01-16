@@ -16,10 +16,6 @@ header {
     padding-bottom: 80px;
 }
 
-.formulario-white {
-    background: var(--color-1) !important;
-}
-
 /****************************Nav*/
 
 nav {
@@ -645,5 +641,5 @@ select::-ms-expand {
 }
 
 .s-contacto-img>img {
-    width: 40%;
+    width: 100%;
 }
