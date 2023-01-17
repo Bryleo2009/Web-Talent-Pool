@@ -24,11 +24,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/principal.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
 </head>
 
 <body>
   <header class="d-flex justify-content-center">
-    <nav class="navbar navbar-expand-lg bg-light row animate__animated animate__fadeInDown">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top row animate__animated animate__fadeInDown">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php"><img src="../../images/Header/Logo Talent pool-01 2.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">

@@ -39,22 +39,24 @@
           </p>
         </div>
       </div>
-      <div class="s-compi-content-item col-6" data-aos="zoom-out-down">
-        <h1>Kvaliteta</h1>
-        <p>Veliki dio naših kandidata je visoko obrazovan
-          mladih između 21 i 35 godina, s
-          većina njih aktivno koristi engleski jezik. Tu je i
-          mogućnost odabira kandidata koji govore i drugi strani jezik
-          jezika poput njemačkog, talijanskog ili čak hrvatskog. Naše
-          usluge već koriste renomirani hotelski lanci
-          na području Istre, unatoč tome što je posao
-          tek nedavno osnovana. Posredujemo pri zapošljavanju
-          strani radnici u sektoru turizma, ali i u
-          građevinske, proizvodne i tehničke struke.
-        </p>
-      </div>
-      <div class="s-compi-content-img-2 col-6 d-flex align-items-center justify-content-center">
-        <img src="../../images/About/undraw_co_workers_re_1i6i 2.png" alt="">
+      <div class="col-12 row">
+        <div class="s-compi-content-item col-6" data-aos="zoom-out-down">
+          <h1>Kvaliteta</h1>
+          <p>Veliki dio naših kandidata je visoko obrazovan
+            mladih između 21 i 35 godina, s
+            većina njih aktivno koristi engleski jezik. Tu je i
+            mogućnost odabira kandidata koji govore i drugi strani jezik
+            jezika poput njemačkog, talijanskog ili čak hrvatskog. Naše
+            usluge već koriste renomirani hotelski lanci
+            na području Istre, unatoč tome što je posao
+            tek nedavno osnovana. Posredujemo pri zapošljavanju
+            strani radnici u sektoru turizma, ali i u
+            građevinske, proizvodne i tehničke struke.
+          </p>
+        </div>
+        <div class="s-compi-content-img-2 col-6 d-flex align-items-center justify-content-center">
+          <img src="../../images/About/undraw_co_workers_re_1i6i 2.png" alt="">
+        </div>
       </div>
     </div>
     <img class="abst-14" src="../../images/Home/Abstract-1.png" alt="">

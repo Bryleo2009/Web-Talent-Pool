@@ -40,22 +40,24 @@
           </p>
         </div>
       </div>
-      <div class="s-compi-content-item col-6" data-aos="zoom-out-down">
-        <h1>Quality</h1>
-        <p>A large portion of our candidates are highly educated
-          young people between the ages of 21 and 35, with the
-          majority of them actively using English. There is also the
-          possibility of selecting candidates who speak other foreign
-          languages such as German, Italian, or even Croatian. Our
-          services are already being used by renowned hotel chains
-          in the Istria region, despite the fact that the business is
-          only recently founded. We mediate in the employment of
-          foreign workers in the tourism sector, but also in
-          construction, production and technical professions.
-        </p>
-      </div>
-      <div class="s-compi-content-img-2 col-6 d-flex align-items-center justify-content-center">
-        <img src="../../images/About/undraw_co_workers_re_1i6i 2.png" alt="">
+      <div class="col-12 row">
+        <div class="s-compi-content-item col-6" data-aos="zoom-out-down">
+          <h1>Quality</h1>
+          <p>A large portion of our candidates are highly educated
+            young people between the ages of 21 and 35, with the
+            majority of them actively using English. There is also the
+            possibility of selecting candidates who speak other foreign
+            languages such as German, Italian, or even Croatian. Our
+            services are already being used by renowned hotel chains
+            in the Istria region, despite the fact that the business is
+            only recently founded. We mediate in the employment of
+            foreign workers in the tourism sector, but also in
+            construction, production and technical professions.
+          </p>
+        </div>
+        <div class="s-compi-content-img-2 col-6 d-flex align-items-center justify-content-center">
+          <img src="../../images/About/undraw_co_workers_re_1i6i 2.png" alt="">
+        </div>
       </div>
     </div>
     <img class="abst-14" src="../../images/Home/Abstract-1.png" alt="">
@@ -113,7 +115,7 @@
       </div>
     </div>
     <img class="abst-15" src="../../images/About/Abstract-21.png" alt="">
-  </section>  
+  </section>
 </main>
 
 <script>
