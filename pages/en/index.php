@@ -132,7 +132,7 @@
         <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
-            <p>I managed to find a super company capable of improving my skills in the market, thanks to Talent Pool.</p>
+            <p>I found a company capable of improving my skills in the market, thanks to the Talent Pool.</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
