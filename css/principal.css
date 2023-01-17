@@ -15,11 +15,9 @@
  * ------------------------------------------------------------------- */
 :root {
   --color-1: #f8f9fa; /*color nav*/
-  --color-2: #0D334D; /*color selector*/
-  --color-3: #F0F0F0;
-  --color-4: #797979;
-  
-  --color-5: #616363;
+  --color-2: #003A6F; /*color selector*/
+  --color-3: #FFFFFF;
+  --color-4: #C8D9E3;  
 
   /* shades 
      * generated using 

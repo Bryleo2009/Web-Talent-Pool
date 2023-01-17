@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px) {
+
+    .seccion {
+        padding-bottom: 0 !important;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    /*****info*/
+    .s-info-logo {
+        width: 100% !important;
+    }
+
+    .s-info-text {
+        width: 100% !important;
+    }
+
+    .s-info-text>h1 {
+        font-size: 50px !important;
+    }
+
+    .abst-3,
+    .abst-2,
+    .abst-8 {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .s-proce-item-content {
+        width: 100% !important;
+    }
+
+    .s-review-item {
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+
+    .s-footer-content-title {
+        width: 100% !important;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .s-footer-contac,
+    .s-footer-pag {
+        width: 100% !important;
+    }
+
+    .s-footer-pag>ul {
+        padding-left: 15px !important;
+    }
+
+    .abst-5 {
+        left: -248px !important;
+    }
+
+    .abst-10 {
+        top: 421px;
+        right: 20px;
+    }
+
+    .abst-6 {
+        bottom: 386px;
+        left: 201px;
+        width: 84px;
+    }
+
+    .abst-7 {
+        left: -2px;
+    }
+
+    /**about*/
+    .s-prin-text {
+        width: 100% !important;
+        text-align: right;
+    }
+
+    .s-prin-text>h1 {
+        font-size: 35px !important;
+    }
+
+    .abst-11 {
+        top: 149px;
+        left: -119px;
+    }
+
+    .s-prin-img , .s-compi-content-img , .s-compi-content-img-2 , .abst-15 {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .s-compi-content-item {
+        width: 100% !important;
+        padding: 30px !important;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /**loking*/
+    .s-look-content {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .s-look-img {
+        width: 100% !important;
+        padding: 25px;
+    }
+
+    .s-look-content>h1 {
+        font-size: 50px;
+    }
+
+    /**contact*/
+    .s-contacto-content {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .s-contacto-img {
+        width: 100% !important;
+        padding: 25px;
+    }
+}
