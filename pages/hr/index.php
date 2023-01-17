@@ -132,7 +132,7 @@
         <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
-            <p>Uspio sam pronaći super tvrtku koja je sposobna unaprijediti moje vještine na tržištu, zahvaljujući Talent Poolu.</p>
+            <p>Našao sam tvrtku koja je sposobna poboljšati moje vještine na tržištu, zahvaljujući grupi talenata.</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
