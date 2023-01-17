@@ -13,7 +13,7 @@ $redireccion = "../pages/en/index.php";
     $msg = $_POST['msg']; 
 
     //variables del e-mail
-    $correoDestino = "ainglish@certicom.com.pe";
+    $correoDestino = "dimitrije.svabic@gmail.com";
     $asunto = "Request email";
 
     //cuerpo del e-mail
@@ -65,13 +65,6 @@ $redireccion = "../pages/en/index.php";
     $cuerpo .= "--=O=F=S=Y=S=T=E=M=--\r\n"; //delimitador de todo el archivo
 
     //validación de envio
-    if (mail($correoDestino, $asunto, $cuerpo, $cabecera)) {
-        $respuesta_empresa = "correo enviado exitosamente al empresa";
-    } else {
-        $respuesta_empresa = "correo no enviado al empresa";
-    }
-
-    $correoDestino = "murbina@certicom.com.pe";
     if (mail($correoDestino, $asunto, $cuerpo, $cabecera)) {
         $respuesta_empresa = "correo enviado exitosamente al empresa";
     } else {
