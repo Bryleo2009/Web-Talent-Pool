@@ -58,13 +58,13 @@
               <a class="nav-link pestaña" aria-current="page" href="index.php" id="home">Početna</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña" href="about.php" id="about">O NAMA</a>
+              <a class="nav-link pestaña" href="about.php" id="about">O nama</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña" href="looking.php" id="looking">TRAŽITE RADNIKE?</a>
+              <a class="nav-link pestaña" href="looking.php" id="looking">Tražiš radnike?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pestaña" id="contact" href="contact.php">KONTAKTIRAJTE NAS</a>
+              <a class="nav-link pestaña" id="contact" href="contact.php">Kontakt</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pestaña idioma hvr-outline-out " href="../en/index.php">EN</a>

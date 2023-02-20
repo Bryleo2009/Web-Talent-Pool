@@ -9,11 +9,11 @@
         <img src="../../images/Home/undraw_co-working_re_w93t 2.png" alt="">
       </div>
       <div class="s-info-text col-6">
-        <h1 class="animate__animated animate__slideInLeft">Tražite strane radnike?</h1>
-        <p>Imate li manjak osoblja za nadolazeće turiste
-          sezona? Trebate li kadrove za sektor turizma,
-          proizvodne, građevinske ili tehničke poslove, zajedno s našim
-          partnera u Limi pomoći ćemo vam pronaći radnike iz Perua.</p>
+        <h1 class="animate__animated animate__slideInLeft">Tražiš stranog radnika?</h1>
+        <p>Nedostaju ti radnici za nadolazeću turističku sezonu? Bilo
+          da se radi o sektoru turizma, graditeljstva, proizvodnje ili
+          tehničkim zanimanjima, zajedno s našim partnerom u Limi
+          pomoći ćemo ti s pronalaženjem radnika iz Perua.</p>
         <a href="looking.php"><button class="hvr-bounce-to-right">Zahtjev</button></a>
       </div>
     </div>
@@ -29,44 +29,42 @@
     <div class="s-proce row">
       <h1 data-aos="fade-up" class="text-center">Postupak</h1>
       <div class="s-proce-text col-12">
-        <p>Sve što trebate učiniti je ispuniti obrazac za
-          potreban profil radnika, a mi ćemo to učiniti
-          novačenje. Nakon što vam pošaljemo životopise od
-          kandidati koji uđu u uži izbor, postoji mogućnost a
-          intervju video pozivom. Nakon konačnog odabira,
-          prikupljanje dokumentacije za radnu dozvolu
-          će se pokrenuti.
+        <p>Sve što trebaš je popuniti zahtjev za traženim
+          profilom radnika, a mi ćemo odraditi regrutaciju i
+          poslati ti životopise kandidata iz užeg izbora. Nakon
+          toga postoji mogućnost intervjua putem video
+          poziva te po konačnom odabiru slijedi priprema
+          dokumentacije za radnu dozvolu.
         </p>
       </div>
       <div class="row s-proce-items col-12">
         <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>1</h2>
-          <h1>Zahtjev za željeni profil</h1>
-          <p>Zanimanje, opis posla, broj
-            kandidati, radno iskustvo, stručna sprema
-            i vještine specifične za posao.</p>
+          <h1>Zahtjev za traženim profilom</h1>
+          <p>Zanimanje, opis posla, broj kandidata, radno
+            iskustvo, obrazovanje i vještine za
+            obavljanje posla.</p>
         </div>
         <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>2</h2>
           <h1>Odabir kandidata</h1>
-          <p>Odabiremo kandidate za tražene
-            profil i dostavite odabrane životopise na
-            klijent. Klijenti imaju mogućnost videa
-            intervjui s kandidatima koji su ušli u uži izbor.</p>
+          <p>Vršimo selekciju kandidata za traženi profil
+            te klijentu dostavljamo odabrane CV-e.
+            Klijenti imaju mogućnost video intervjua sa
+            kandidatima iz užeg izbora</p>
         </div>
         <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>3</h2>
           <h1>Radne dozvole</h1>
-          <p>Dokumentaciju prikupljamo od
-            kandidata koji su potrebni za dobivanje a
-            dozvola za rad. Vize nisu potrebne za
-            građani Perua.</p>
+          <p>Prikupljamo dokumentaciju od kandidata
+            potrebnu za ishođenje radne dozvole. Za
+            državljane Perua vize nisu potrebne.</p>
         </div>
         <div class="s-proce-item-content col-3" data-aos="flip-left">
           <h2>4</h2>
           <h1>Dolazak kandidata</h1>
-          <p>Pružamo podršku kandidatima
-            organiziranje putovanja.</p>
+          <p>Pružamo podršku pri organizaciji putovanja
+            kandidata.</p>
         </div>
       </div>
     </div>
@@ -78,8 +76,8 @@
     <div class="s-reque row">
       <div class="s-reque-title">
         <h1 data-aos="fade-up" class="text-center">Pošalji zahtjev</h1>
-        <p class="text-center">Za procjenu projekta ispunite obrazac
-          i mi ćemo stupiti u kontakt s vama.</p>
+        <p class="text-center">Ispunite formular kako biste dobili procjenu za
+          projekt, nakon čega ćemo Vas kontaktirati.</p>
       </div>
       <div class="s-reque-forms row">
         <form class="form-group request-home col-12" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
@@ -90,7 +88,7 @@
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
-            <span class="label">e-pošta</span>
+            <span class="label">E-mail</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
@@ -105,12 +103,12 @@
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
-            <span class="label">Položaj</span>
+            <span class="label">Za radno mjesto</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="number" min="1" max="100" id="number" name="number" required="" placeholder="&nbsp;">
-            <span class="label">Potreban broj radnika</span>
+            <span class="label">Traženi broj radnika</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
@@ -132,12 +130,17 @@
         <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
-            <p>Našao sam tvrtku koja je sposobna poboljšati moje vještine na tržištu, zahvaljujući grupi talenata.</p>
+            <p>Moje iskustvo u Hrvatskoj bilo je vrlo zanimljivo. Mogao sam iz prve ruke vidjeti i iskusiti kako Europljani žive svoj dan i shvatio sam koliko su drugačiji od starijih suradnika koje sam imao.
+              Drago mi je što sam bio dio prve skupine Peruanaca u Hrvatskoj jer je to značilo da Hrvatima pokazujemo kakvi smo Peruanci i Latinoamerikanci jer u ovoj zemlji nema toliko useljavanja kao u drugim europskim zemljama.
+
+              Podržavam ideju da više sunarodnjaka može doći uživati ​​u ovoj zemlji koja je, iako mala, zaista lijepa i vrlo sigurna. Čak i ako imate na umu posjetiti druge europske zemlje jer ovdje je sve vrlo povezano.
+
+              Uživajte u Hrvatskoj sa sigurnošću da ćete upoznati nevjerojatne ljude i da će vam se panorama otvoriti prema novim horizontima!</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
               <h2>Emma Miller</h2>
-              <h3>Komercijalni pomoćnik</h3>
+              <!-- <h3>Komercijalni pomoćnik</h3> -->
             </div>
             <div class="review-item-inf-star">
               <i class="fa-solid fa-star star-active"></i>
@@ -148,7 +151,7 @@
             </div>
           </div>
         </div>
-        <div class="s-review-item col-4" data-aos="fade-up">
+        <!-- <div class="s-review-item col-4" data-aos="fade-up">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p2.jpg" alt="">
             <p>Zahvaljujući Talent Poolu uspio sam dobiti stabilan posao pun mnogo mogućnosti.</p>
@@ -185,7 +188,7 @@
               <i class="fa-solid fa-star"></i>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

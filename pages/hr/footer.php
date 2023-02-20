@@ -21,16 +21,16 @@
       <div class="s-footer-pag col-3">
         <ul>
           <li class="s-footer-pag-item">
-            <a aria-current="page" href="index.php">Pocetna</a>
+            <a aria-current="page" href="index.php">Početna</a>
           </li>
           <li class="s-footer-pag-item">
             <a href="about.php">O nama</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="looking.php">Tražite radnike?</a>
+            <a href="looking.php">Tražiš radnika?</a>
           </li>
           <li class="s-footer-pag-item">
-            <a href="contact.php">Kontaktirajte nas</a>
+            <a href="contact.php">Kontakt</a>
           </li>
           <li class="s-footer-pag-item">
             <a href="">Odredbe i uvjeti</a>
@@ -42,12 +42,12 @@
       </div>
     </div>
     <div class="row s-footer-social">
-      <div class="s-footer-social-items col-12">
+      <!-- <div class="s-footer-social-items col-12">
         <i class="fa-brands fa-facebook-f"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-linkedin-in"></i>
         <i class="fa-brands fa-instagram"></i>
-      </div>
+      </div> -->
       <h1>Autorska prava © TalentPool 2022</h1>
       <div class="s-footer-social-copy">
         <script>

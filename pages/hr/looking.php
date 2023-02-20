@@ -7,8 +7,8 @@
     <div class="s-look row">
       <div class="s-look-content col-6">
         <h1 class="animate__animated animate__slideInLeft">Pošalji zahtjev</h1>
-        <p>Da biste dobili procjenu projekta, ispunite obrazac<br>
-          i mi ćemo vas kontaktirati</p>
+        <p>Ispunite obrazac kako biste dobili procjenu za projekt,
+a mi ćemo Vas kontaktirati u najkraćem mogućem roku</p>
       </div>
       <div class="s-look-img col-6 d-flex align-items-center justify-content-center">
         <img src="../../images/Looking/undraw_work_chat_re_qes4 2.png" alt="">
@@ -21,8 +21,8 @@
     <div class="s-reque row">
       <div class="s-reque-title">
         <h1 data-aos="fade-up" class="text-center">Pošalji zahtjev</h1>
-        <p class="text-center">Za procjenu projekta ispunite obrazac
-          i mi ćemo stupiti u kontakt s vama.</p>
+        <p class="text-center">Ispunite formular kako biste dobili procjenu za
+projekt, nakon čega ćemo Vas kontaktirati.</p>
       </div>
       <div class="s-reque-forms row">
         <form class="form-group request-home col-12" method="post" action="../../ofsystem/enviar_solicitud.php" id="forms" enctype="multipart/form-data">
@@ -33,7 +33,7 @@
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
-            <span class="label">e-pošta</span>
+            <span class="label">E-mail</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
@@ -48,12 +48,12 @@
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="position" name="position" required="" placeholder="&nbsp;">
-            <span class="label">Položaj</span>
+            <span class="label">Za radno mjesto</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="number" min="1" max="100" id="number" name="number" required="" placeholder="&nbsp;">
-            <span class="label">Potreban broj radnika</span>
+            <span class="label">Traženi broj radnika</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">

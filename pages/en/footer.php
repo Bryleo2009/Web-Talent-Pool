@@ -42,12 +42,12 @@
       </div>
     </div>
     <div class="row s-footer-social">
-      <div class="s-footer-social-items col-12">
+      <!-- <div class="s-footer-social-items col-12">
         <i class="fa-brands fa-facebook-f"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-linkedin-in"></i>
         <i class="fa-brands fa-instagram"></i>
-      </div>
+      </div> -->
       <h1>Copyright © TalentPool 2022</h1>
       <div class="s-footer-social-copy">
         <script>

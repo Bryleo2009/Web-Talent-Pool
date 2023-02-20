@@ -6,8 +6,8 @@
   <section id="contacto" class="seccion">
     <div class="s-contacto row">
       <div class="s-contacto-content col-6 ">
-        <h1 class="animate__animated animate__slideInLeft">Kontaktirajte nas</h1>
-        <p>Pošaljite nam poruku koristeći donji obrazac.</p>
+        <h1 class="animate__animated animate__slideInLeft">Kontakt</h1>
+        <p>Pošaljite nam poruku putem obrasca.</p>
       </div>
       <div class="s-contacto-img col-6 d-flex align-items-center justify-content-center">
         <img src="../../images/Contact/undraw_work_from_anywhere_re_s2i6 2.png" alt="">
@@ -20,14 +20,14 @@
     <div class="s-reque row">
       <div class="s-reque-title">
         <h1 data-aos="fade-up" class="text-center">Pošalji zahtjev</h1>
-        <p class="text-center">Za procjenu projekta ispunite obrazac
-          i mi ćemo stupiti u kontakt s vama.</p>
+        <p class="text-center">Ispunite formular kako biste dobili procjenu za
+projekt, nakon čega ćemo Vas kontaktirati..</p>
       </div>
       <div class="s-reque-forms row">
         <form class="form-group request-home col-12" method="post" action="../../ofsystem/enviar_contacto.php" id="forms" enctype="multipart/form-data">
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="text" id="name" name="name" required="" placeholder="&nbsp;">
-            <span class="label">Prvo ime</span>
+            <span class="label">Ime</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
@@ -37,7 +37,7 @@
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">
             <input type="email" id="email" name="email" required="" placeholder="&nbsp;">
-            <span class="label">E-pošta</span>
+            <span class="label">E-mail</span>
             <span class="focus-bg"></span>
           </label>
           <label for="inp" class="inp" data-aos="zoom-in">

@@ -132,12 +132,15 @@
         <div class="s-review-item col-4" data-aos="fade-up-right">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p1.jpg" alt="">
-            <p>I found a company capable of improving my skills in the market, thanks to the Talent Pool.</p>
+            <p>"My experience in Croatia was very interesting. I got to know and experience first hand how Europeans live their day and day and I realized how different they are from the American co-workers I have had.
+              I am glad to have been part of the first group of Peruvians in Croatia because that meant that we were showing Croats what we are like as Peruvians and Latinos since in this country there is not as much immigration as in other European countries.
+              I support the idea that more compatriots can come to enjoy this country, which, although small, is really beautiful and very safe. Even if you have in mind to visit other European countries because here everything is very connected.
+              Enjoy Croatia with the certainty that you will meet incredible people and that your panorama will open up to new horizons!!"</p>
           </div>
           <div class="s-review-item-inf d-flex align-items-center justify-content-between">
             <div class="review-item-inf-name">
-              <h2>Emma Miller</h2>
-              <h3>Commercial Assistant</h3>
+              <h2>Shirley Villalobos</h2>
+              <!-- <h3>Commercial Assistant</h3> -->
             </div>
             <div class="review-item-inf-star">
               <i class="fa-solid fa-star star-active"></i>
@@ -148,7 +151,7 @@
             </div>
           </div>
         </div>
-        <div class="s-review-item col-4" data-aos="fade-up">
+        <!-- <div class="s-review-item col-4" data-aos="fade-up">
           <div class="s-review-item-sup">
             <img src="../../images/Home/p2.jpg" alt="">
             <p>Thanks to the Talent Pool, I managed to get a stable job full of many opportunities.</p>
@@ -185,7 +188,7 @@
               <i class="fa-solid fa-star"></i>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
